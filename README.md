@@ -54,4 +54,8 @@ Componentes:
   ![image](https://github.com/vany-garsos/control-asistencia-rfid/blob/fa4141aa7d33b69f9f0e0e8b7156bcdd00624bb6/registroalumno.png)
 
 ### 3.  Notificación push al padre 📳
-- El sistema consulta el token del padre desde M
+- El sistema consulta el token del padre desde MySQL
+- Se envía una notificación vía **Firebase Cloud Messaging**
+- El padre recibe un mensaje tipo:  
+  `Silvany ha ingresado a la escuela`
+
