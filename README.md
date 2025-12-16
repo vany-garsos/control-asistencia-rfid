@@ -1,7 +1,7 @@
 #  Sistema de Control de Asistencia RFID con Notificaciones Push
 
 Proyecto de asistencia escolar que utiliza el microcontrolador **ESP32** para el registro de entradas y salidas de alumnos, con notificaciones **push en tiempo real a los padres** mediante una **app Android**. Incluye un sistema web de administración para gestionar los alumnos y sus asistencias.
-![imagen](./media/proyecto.jpg)
+![image](https://github.com/vany-garsos/control-asistencia-rfid/blob/fa4141aa7d33b69f9f0e0e8b7156bcdd00624bb6/proyecto.jpg)
 
 ## 🔧 Tecnologías utilizadas
 - PHP en MVC
@@ -48,10 +48,10 @@ Componentes:
 
 ### 2.  Registro en la base de datos
 - Si es **modo 1 (asistencia)**: se guarda la entrada/salida del alumno
-  ![asistencias](./media/asistencias.png)
+  ![image](https://github.com/vany-garsos/control-asistencia-rfid/blob/fa4141aa7d33b69f9f0e0e8b7156bcdd00624bb6/asistencias.png)
 - Si es **modo 2 (registro de alumnos)**: se guarda el UID para completar el formulario desde el panel
     - Se descarga la aplicacion en el padre del alumno para insertar automaticamente el Token y posteriormente lleguen las notificaciones
-  ![image](https://github.com/vany-garsos/control-asistencia-rfid/blob/7ee6469545650e55ae02a508b7f86aa845ffffce/proyecto.jpg)
+  ![image](https://github.com/vany-garsos/control-asistencia-rfid/blob/fa4141aa7d33b69f9f0e0e8b7156bcdd00624bb6/registroalumno.png)
 
 ### 3.  Notificación push al padre 📳
 - El sistema consulta el token del padre desde M
