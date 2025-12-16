@@ -51,7 +51,7 @@ Componentes:
   ![asistencias](./media/asistencias.png)
 - Si es **modo 2 (registro de alumnos)**: se guarda el UID para completar el formulario desde el panel
     - Se descarga la aplicacion en el padre del alumno para insertar automaticamente el Token y posteriormente lleguen las notificaciones
-  ![alumnos](./media/registroalumno.png)
+  ![image](https://github.com/vany-garsos/control-asistencia-rfid/blob/7ee6469545650e55ae02a508b7f86aa845ffffce/proyecto.jpg)
 
 ### 3.  Notificación push al padre 📳
 - El sistema consulta el token del padre desde M
