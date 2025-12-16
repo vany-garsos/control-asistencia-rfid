@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "919182406180",
+    "project_id": "controlasistencia-f71d4",
+    "storage_bucket": "controlasistencia-f71d4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:919182406180:android:daddfc9fd47631e522deb1",
+        "android_client_info": {
+          "package_name": "com.example.controlasistencianotificaciones"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCyBVZ2ALZufqJpeVBH2cPMbK94pqKPVA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

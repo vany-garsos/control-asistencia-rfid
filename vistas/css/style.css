@@ -1,0 +1,148 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.titulos{
+    font-weight: bold;
+    font-size:25px;
+    padding: 15px 11px;
+}
+.indicaciones{
+    color: gray;
+    margin: 1px 1px 6px 14px;
+}
+.contenedor-principal{
+    border: 1px solid gainsboro;
+    width: 65%;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.inputForm{
+    position: relative;
+    padding: 15px;
+}
+
+.inputForm input{
+    width: 100%;
+    height: 35px;
+    border-radius: 3px;
+    border: none;
+    background: rgb(249, 248, 248);
+    outline: none;
+    position: relative;
+    padding: 10px 15px;
+    box-shadow: 2px 2px 5px rgb(182, 181, 181);
+}
+.inputForm input::placeholder{
+    color:transparent;
+}
+
+.inputForm label{
+    position: absolute;
+    top:18px;
+    left: 30px;
+    font-size: small;
+    pointer-events: none;
+    transition: .3s;
+}
+.servidores{
+    font-size:14px;
+}
+
+input:focus + label,
+input:not(:placeholder-shown)+ label{
+    top: 3px;
+    background-color: white;
+}
+/*Eliminar controles de los input cuando es de tipo number*/
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/*Estilos para selects*/
+.selects{
+    padding: 15px;
+}
+
+.selects select{
+    width: 100%;
+    height: 35px;
+    background: rgb(249, 248, 248);
+    border: none;
+    box-shadow: 2px 2px 5px rgb(182, 181, 181);
+    font-size: small;
+    padding: 10px 15px;
+
+}
+
+img{
+    border-color: black;
+}
+
+
+/*Mensajes de error*/
+.error{
+    color: red;
+    font-size: 12px;
+    padding: 0px 16px 0px 19px;
+    display: block;
+}
+
+.correcto{
+    display: none;
+}
+
+.error_input{
+    border: 2px solid red !important;
+}
+
+.validar_input{
+    border: 2px solid green !important;
+}
+
+/*Dispositivos moviles*/
+
+@media screen and (max-width: 767px) {
+    body{
+        background-color: rgb(231, 231, 236);
+    }
+    .titulos{
+        font-size: 20px;
+    }
+    .indicaciones{
+        font-size: small;
+    }
+    .contenedor-principal{
+        background-color: white;
+        margin: 0 auto;
+        width: 85%;
+        border: transparent;
+        margin-top: 50px;
+    }
+
+    .inputForm label{
+        top:30px;
+    }
+
+    .inputForm input{
+        background-color: transparent;
+        box-shadow: none;
+        border-bottom: 2px solid rgb(183, 182, 182);
+        border-radius: 0px;
+        margin-top: 12px;
+    }
+
+    .error_input{
+        border: none !important;
+        border-bottom: 2px solid red !important;
+    }
+    
+    .validar_input{
+        border: none !important;
+        border-bottom: 2px solid green !important;
+    }
+
+}
